@@ -24,7 +24,7 @@ services:
     volumes:
       - hadoop_namenode:/hadoop/dfs/name
       # TODO: Voeg hier extra folders toe om ze zichtbaar te maken in je containers, deze hebben de volgende structuur:
-      # C:\Users\m\OneDrive - Documenten\Odisee TI\2de jaar\Kwartaal 3\Big Data
+      # C:\Users\m\OneDrive\Documenten\Odisee TI\2de jaar\Kwartaal 3\Big Data
     environment:
       - CLUSTER_NAME=test
     env_file:
